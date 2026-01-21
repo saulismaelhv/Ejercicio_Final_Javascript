@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Proyecto Final JavaScript",
+    "contenido": "Saúl Hinojosa entrega con éxito el trabajo final del módulo."
+  },
+  {
+    "titulo": "Carga con AJAX",
+    "contenido": "Las noticias se cargan dinámicamente desde un archivo JSON externo."
+  },
+  {
+    "titulo": "GitHub Pages",
+    "contenido": "El proyecto está desplegado correctamente en GitHub Pages."
+  }
+]

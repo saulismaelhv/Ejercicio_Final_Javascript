@@ -1,2 +1,9 @@
-# Ejercicio_Final_Javascript
-Trabajo final de Javascript
+# Ejercicio Final JavaScript
+
+Proyecto final realizado por Saúl Hinojosa.
+
+## Repositorio GitHub
+https://github.com/saulismaelhv/Ejercicio_Final_Javascript
+
+## GitHub Pages
+https://saulismaelhv.github.io/Ejercicio_Final_Javascript/

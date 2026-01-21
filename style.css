@@ -1,0 +1,81 @@
+body{
+    font-family:Arial;      /*Estilo de letra*/
+    margin:0               /*Margen del cuerpo*/
+}
+
+header{
+    position:relative;       /*Posición relativa de la cabecera*/
+    text-align: center;     /*Texto alineado al centro*/
+    width:100%;            /*Ancho del contenido*/
+    background:#222;    /*Color del fondo*/
+    color:#fff;        /*Color del texto*/
+    padding:40px;       /*Espacio alrededor*/
+}
+
+nav a{
+    color:#fff;             /*Color del texto*/
+    margin:10px;             /*Margen del texto*/
+    text-decoration:none;   /*Decoration del texto*/
+}
+
+.activo{
+    border-bottom:2px solid yellow  /*Color del boton de la página que se encuentre*/
+}
+
+.bloque {
+    margin-top: 5px;              /*Separación del header*/
+    padding: 10px;                  /*Espacio interior*/
+    width: 100%;                    /*Ocupa todo el ancho*/
+    display: flex;                  /*Flexbox*/
+    flex-direction: column;         /*Elementos en columna*/
+    align-items: center;            /*Centrado horizontal*/
+    text-align: center;             /*Texto centrado*/
+}
+
+.bloque img {
+    width: 800px;                   /*Ancho de las imagines*/
+    height: 400px;                  /*Altura de las imagines*/
+    object-fit: cover;              /*Recorte proporcional*/
+    margin-top: 10px;               /*Separación texto-imagen*/
+    border-radius: 10px;            /*Bordes suaves*/
+}
+
+section{
+    width: 100%;                 /*Anchura del contenido*/
+    text-align: center;         /*Texto alineado al centro*/
+}
+
+
+#mapa{
+    width:105%;          /*Ancho del contenido*/               
+    height:600px;       /*Altura del contenido*/
+    
+}
+
+footer{
+    width:100%;                    /*Ancho del contenido*/
+    background:#222;            /*Color del fondo*/
+    color:#fff;                /*Color de la letra*/
+    text-align:center;          /*Texto alineado al centro*/
+    padding:40px;              /* Espacio interno */
+    text-align: center;       /*Texto alineado al centro*/
+}
+
+#galeria {
+    display: grid;                          /*Usamos CSS Grid*/
+    grid-template-columns: repeat(2, 1fr); /*2 imágenes por fila*/
+    gap: 5px;                            /*Espacio entre imágenes*/
+    justify-items: center;               /*Centra las imágenes horizontalmente*/
+    margin-top: 20px;                  /*Separación del header fijo*/
+    padding: 5px;                     /*Espacio interno*/
+}
+
+#galeria img {
+    width: 600px;                      /*Tamaño uniforme*/
+    max-width: 100%;                  /*Responsive*/
+    height: auto;                    /*Mantiene proporción*/
+}
+
+form{
+    text-align: center;            /*Texto alineado al centro*/
+}

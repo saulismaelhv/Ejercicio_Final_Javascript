@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presupuesto</title>
+
+    <!--Link estilos css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Link archivo JS-->
+    <script defer src="js/presupuesto.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TechWeb Solutions</h1>
+
+    <!--Carga de los HTML-->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="galeria.html">Galería</a>
+        <a class="activo" href="presupuesto.html">Presupuesto</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    </header>
+
+    <!--Creación Formulario-->
+<form>
+    <h2>Datos de contacto</h2>
+        <input type="text" id="nombre">
+        <input type="text" id="apellidos">
+        <input type="text" id="telefono">
+        <input type="email" id="email">
+
+        <input type="checkbox" id="condiciones">
+
+        <form id="formulario">
+
+    
+    <h2>Presupuesto</h2>
+        <select id="producto">
+            <option value="500">Web Básica - 500€</option>
+            <option value="800">Web Profesional - 800€</option>
+            <option value="1200">Tienda Online - 1200€</option>
+        </select>
+
+    <!--Datos que se deben rellenar para solicitar el presupuesto-->
+    <input type="number" id="plazo" placeholder="Meses">
+
+    <label><input type="checkbox" class="extra" value="100"> SEO</label>
+
+    <label><input type="checkbox" class="extra" value="200"> Mantenimiento</label>
+
+    <p>Total: <span id="total">0</span> €</p>
+
+    <label><input type="checkbox"> Acepto condiciones</label>
+
+    <form id="formulario">
+    <button type="button" id="btnEnviar">Enviar</button>
+</form>
+
+</form>
+
+<footer>
+    <p>© 2026 Saúl Hinojosa</p>
+    <p>Aviso legal - Carrer de Provença, 112B, 114, Eixample, 08029 Barcelona</p>
+</footer>
+</body>
+</html>
